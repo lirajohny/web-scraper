@@ -1,0 +1,14 @@
+{
+  "name": "amazon-scraper-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backend para o Amazon Product Scraper",
+  "main": "server.js",
+  "scripts": {
+    "start": "bun server.js",
+    "dev": "bun --watch server.js"
+  },
+  "keywords": ["scraper", "amazon", "bun", "express"],
+  "author": "Seu Nome",
+  "license": "MIT"
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon Product Scraper</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Amazon Product Scraper</h1>
+      <p>Enter a keyword to search for products on Amazon</p>
+    </header>
+    
+    <section class="search-section">
+      <div class="search-container">
+        <input 
+          type="text" 
+          id="keyword" 
+          placeholder="Ex: laptop, headphones, smart watch..."
+          autocomplete="off"
+        >
+        <button id="search-btn">Search Products</button>
+      </div>
+      <div id="loader" class="loader hidden"></div>
+    </section>
+    
+    <section class="results-section">
+      <div id="results-header" class="hidden">
+        <h2>Search Results: <span id="search-term"></span></h2>
+        <p>Found: <span id="results-count">0</span> products</p>
+      </div>
+      
+      <div id="error-message" class="error hidden"></div>
+      
+      <div id="products-container" class="products-grid"></div>
+    </section>
+  </div>
+  
+  <footer>
+    <p>This project is for educational purposes only. Do not use for commercial purposes.</p>
+  </footer>
+  
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

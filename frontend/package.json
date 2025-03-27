@@ -1,0 +1,13 @@
+{
+  "name": "amazon-scraper-frontend",
+  "version": "1.0.0",
+  "description": "Frontend para o Amazon Product Scraper",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
